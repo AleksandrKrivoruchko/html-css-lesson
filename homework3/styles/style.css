@@ -16,9 +16,8 @@ a {
 .top_page {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     flex-wrap: wrap;
-    gap: 300px;
+    gap: 500px;
     margin-top: 40px;
     margin-bottom: 40px;
 }
@@ -54,7 +53,8 @@ a {
 }
 
 .info_text {
-    padding: 44px;
+    padding-top: 44px;
+    padding-bottom: 44px;
 }
 
 .heading_first_level {
@@ -78,7 +78,8 @@ a {
 }
 
 .info_text_button {
-    margin: 37px;
+    margin-top: 37px;
+    margin-bottom: 37px;
 }
 
 .start {
@@ -118,6 +119,7 @@ a {
     padding-top: 67px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 30px;
 }
 
