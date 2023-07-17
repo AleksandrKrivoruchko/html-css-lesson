@@ -7,118 +7,14 @@ a {
     text-decoration: none;
 }
 
-.main_div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .top_page {
-    padding-top: 14px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    column-gap: 500px;
+    padding-top: 40px;
 }
 
-.img_logo {
-    padding-top: 26px;
+.top_page_logo {
+    padding-top: 5px;
 }
 
 .top_page_menu {
-    padding-top: 39px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.menu_link_orange {
-    color: #F25822;
-    font-family: Gilroy-SemiBold;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.menu_link {
-    color: #000;
-    font-family: Gilroy-SemiBold;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.info {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 40px;
-    padding-top: 83px;
-}
-
-.heading_first_level {
-    
-    color: #000;
-    font-family: Gilroy-Bold;
-    font-size: 60px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.info_text_paragraph {
-    padding-top: 17px;
-    color: #888;
-    font-family: Gilroy-Medium;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.info_text_button {
-    display: flex;
-    flex-direction: row;
-    padding-top: 37px;
-    gap: 40px;
-}
-
-.btn {
-    width: 140px;
-    height: 50px;
-    border-radius: 50px;
-    border: none;
-    font-family: Gilroy-Bold;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.start {
-    background: #F25822;
-    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
-    color: #FFF;
-}
-
-.watch_video {
-    background: #FFF;
-    color: #AAA;
-}
-
-.logo {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 48px;
-    padding-top: 133px;
-}
-
-.link_img {
-    width: 160px;
-    height: 50px;
+    padding-top: 11px;
 }
