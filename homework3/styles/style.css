@@ -83,6 +83,7 @@ img {
 .info_text_button {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     padding-top: 37px;
     gap: 40px;
 }
@@ -133,6 +134,27 @@ img {
     }
 
     .logo {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .main_div {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .heading_first_level {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .info_text_paragraph {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .info_text_button {
         justify-content: center;
     }
 }
