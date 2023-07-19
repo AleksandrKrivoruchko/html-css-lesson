@@ -18,11 +18,15 @@ img {
 }
 
 .top_page {
-    padding-top: 40px;
+    padding-top: 14px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 500px;
 }
 
-.top_page_logo {
-    padding-top: 5px;
+.img_logo {
+    padding-top: 26px;
 }
 
 .top_page_menu {
@@ -60,8 +64,11 @@ img {
     padding-top: 83px;
 }
 
-.heading_first_level {
+.info_text {
+    max-width: 500px;
+}
 
+.heading_first_level {
     color: #000;
     font-family: Gilroy-Bold;
     font-size: 60px;
@@ -132,6 +139,17 @@ img {
     .info {
         justify-content: center;
     }
+
+    .heading_first_level {
+        text-align: center;
+    }
+    .info_text_paragraph {
+        text-align: center;
+    }
+    .info_text_button {
+        justify-content: center;
+    }
+
 
     .logo {
         justify-content: center;
