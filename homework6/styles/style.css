@@ -166,7 +166,7 @@ font-weight: 700;
 .bottom_top_text {
     display: flex;
     width: 360px;
-    padding: 24px 0px 24px 16px;
+    padding: 24px 0px 20px 16px;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
@@ -203,4 +203,27 @@ line-height: normal;
 .bottom_top_center_image {
     background-color: #f7e4e2;
     padding: 9px 110px 11px 108px;
+}
+
+.bottom_block_button_div {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom_block_button {
+    width: 212px;
+    height: 48px;
+    border: 1px solid #ff6a6a;
+    background-color: transparent;
+    margin-top: 48px;
+    margin-bottom: 60px;
+}
+
+.bottom_button {
+    color: #F26376;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
