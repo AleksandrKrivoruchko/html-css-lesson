@@ -8,8 +8,8 @@ body {
 }
 
 .center {
-    padding-left: calc(50% - 1600px/2);
-    padding-right: calc(50% - 1600px/2);
+    padding-left: calc(50% - 800px);
+    padding-right: calc(50% - 800px);
 }
 
 .main_page {
@@ -37,7 +37,48 @@ body {
 }
 
 .button_copy {
-    padding-top: 26px;
+    /* padding-top: 26px; */
+    display: flex;
+    column-gap: 25px;
+}
+
+.drop_menu {
+    padding-top: 31px;
+}
+
+.account {
+    padding-top: 27px;
+}
+
+.count_in_basket {
+    margin-left: 17px;
+    position: relative;
+}
+
+.basket {
+    padding-top: 27px;
+    display: block;
+    position: absolute;
+}
+
+.ellipse {
+    padding-top: 19px;
+    padding-left: 22px;
+    display: block;
+    position: absolute;
+    z-index: 1;
+}
+
+.count {
+    padding-top: 20px;
+    padding-left: 29px;
+    position: absolute;
+    z-index: 2;
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .top_block {
@@ -206,24 +247,22 @@ line-height: normal;
 }
 
 .bottom_block_button_div {
-    display: flex;
-    justify-content: center;
-}
-
-.bottom_block_button {
     width: 212px;
     height: 48px;
     border: 1px solid #ff6a6a;
-    background-color: transparent;
     margin-top: 48px;
     margin-bottom: 60px;
+    margin-left: calc(50% - 106px);
 }
 
 .bottom_button {
+    display: block;
+    text-decoration: none;
+    padding-top: 15px;
     color: #F26376;
-    font-family: Lato;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    text-align: center;
 }

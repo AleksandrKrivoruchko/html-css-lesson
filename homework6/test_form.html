@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test form</title>
+    <link rel="stylesheet" href="styles/style_test_form.css">
+</head>
+
+<body>
+    <form action="#" novalidate>
+        <h2>Скрытый блок</h2>
+        <details>
+            <summary>Этот блок скрыт</summary>
+            <h2>Пожалуйста, заполните форму регистрации пользователей.
+                Обязательные поля помечены *
+            </h2>
+            <h3>Контактная информация</h3>
+            <label for="name2">Фамилия<em>*</em></label>
+            <input id="name2" type="text" placeholder="Иванов" autofocus><br>
+            <label for="name">Имя<em>*</em></label>
+            <input id="name" type="text" placeholder="Иван"><br>
+            <label for="telephone">Телефон<em>*</em></label>
+            <input id="telephone" required><br>
+            <label for="email">Email<em>*</em></label>
+            <input id="email"><br>
+            <h3>Персональная информация</h3>
+            <label for="age">Возраст<em>*</em></label>
+            <input id="age" type="number" min="1" max="130" step="0.5"><br>
+            <label for="gender">Пол</label>
+            <select id="gender">
+                <option value="female">Мужской</option>
+                <option value="male">Женский</option>
+            </select><br>
+            <div>
+                <label for="comments">Перечислите дополнительную информацию,
+                    которую вы хотели бы сообщить о себе
+                </label>
+            </div>
+            <textarea id="comments"></textarea>
+            <h2>Выберите любимый фрукт</h2>
+            <label for="fruit">Фрукт</label>
+            <input id="fruit" list="dl_fruits">
+            <datalist id="dl_fruits">
+                <option value="apple">Яблоко</option>
+                <option value="ananas">Ананас</option>
+                <option value="apricot">Абрикос</option>
+                <option value="watermelon">Арбуз</option>
+                <option value="avocado">Авокадо</option>
+                <option value="orange">Апельсин</option>
+            </datalist>
+
+
+
+            <h3>Выберите ваши увлечения</h3>
+            <label for="sport"><input id="sport" type="checkbox">Спорт</label>
+            <label for="turist"><input id="turist" type="checkbox">Туризм</label>
+            <label for="padi"><input id="padi" type="checkbox">Дайвинг</label>
+            <label for="travels"><input id="travels" type="checkbox">Путешествия</label>
+            <label for="auto"><input id="auto" type="checkbox">Автомобили</label>
+            <label for="it"><input id="it" type="checkbox">IT</label>
+            <br><input type="image" src="images/search_img.svg" alt="search"><br>
+            <input type="color" name="color" id="color"><br>
+            <input type="date" name="date" id="date"><br>
+            <input type="datetime-local" name="datetime" id="datetime">
+            <div><button type="submit">Отправить информацию</button></div>
+        </details>
+    </form>
+    <video src="images/mp4.mp4" controls poster="images/bottom_bottom_center.svg"></video>
+    <ul>
+        <li>Первый элемент<br><a href="#">Первая ссылка</a></li>
+        <li>Второй элемент<br><a href="#">Вторая ссылка</a></li>
+        <li>Третий элемент<br><a href="index.html">Третья ссылка</a></li>
+    </ul>
+    <a href="../homework3/index.html">Test</a><br>
+    <img class="icon" src="images/search_img.svg" alt="search">
+</body>
+
+</html>

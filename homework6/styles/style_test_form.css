@@ -1,0 +1,44 @@
+li:first-child {
+    font-size: 24px;
+    color: #f23401;
+}
+
+li:first-child a {
+    text-decoration: none;
+    color: rgba(12, 66, 4, 0.685);
+}
+
+a:link:hover {
+    color: #0f0;
+}
+
+a:visited:hover {
+    color: #f00;
+    font-weight: bold;
+}
+
+li::after {
+    content: "  new";
+    color: #00f;
+}
+
+@keyframes anim {
+    from {margin-left: 3px; margin-top: 20px;}
+    to {margin-left: 500px; margin-top: 200px;}
+}
+
+ul {
+    animation: anim  2s 20;
+    animation-direction: alternate;
+}
+
+ul:hover {
+    animation-play-state: paused;
+}
+
+li:hover a {
+    color: aqua;
+}
+form:hover details{
+    background-color: #00f;
+}
