@@ -37,7 +37,6 @@ body {
 }
 
 .button_copy {
-    /* padding-top: 26px; */
     display: flex;
     column-gap: 25px;
 }
@@ -101,7 +100,7 @@ body {
     font-size: 48px;
     font-style: normal;
     font-weight: 900;
-    line-height: normal;
+    line-height: 44px;
 }
 
 .top_center_text {
@@ -111,8 +110,8 @@ body {
 
 .top_end_text {
     color: #F16D7F;
-font-size: 32px;
-font-weight: 700;
+    font-size: 32px;
+    font-weight: 700;
 }
 
 .center_block {
@@ -123,23 +122,34 @@ font-weight: 700;
     justify-content: center;
 }
 
-.center_top_left {
+.center_top {
     min-height: 260px;
+    position: relative;
+}
+
+.center_woman_left {
+    max-width: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+.center_top_color {
+    width: 360px;
+    min-height: 260px;
+    position: absolute;
     background-color: rgba(33, 22, 22, 0.70);
-    background-image: url("../images/center_block_woman_left.svg");
-    background-blend-mode:color;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    z-index: 1;
 }
 
 .center_top_text {
-    color: #FFF;
     text-align: center;
+    color: #FFF;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    position: absolute;
+    z-index: 2;
 }
 
 .center_top_red {
@@ -148,28 +158,33 @@ font-weight: 700;
     font-weight: 700;
 }
 
-.center_top_center {
-    background-color: rgba(33, 22, 22, 0.70);
-    background-image: url("../images/center_block_man_center.svg");
-    background-blend-mode: color;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.center_top_left {
+    padding-top: 105px;
+    padding-left: 103px;
 }
 
-.center_top_right {
-    background-image: url("../images/center_block_woman_right.svg");
+.center_top_center {
+    padding-top: 105px;
+    padding-left: 125px;
 }
 
 .center_bottom {
     min-height: 180px;
     grid-column: span 3;
+    position: relative;
+}
+
+.center_bottom_color {
+    width: 1140px;
+    min-height: 180px;
     background-color: rgba(33, 22, 22, 0.70);
-    background-image: url("../images/center_block_bottom.svg");
-    background-blend-mode: color;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    z-index: 1;
+}
+
+.center_bottom_position {
+    padding-top: 65px;
+    padding-left: 491px;
 }
 
 .bottom_block {
@@ -265,4 +280,93 @@ line-height: normal;
     font-weight: 400;
     line-height: normal;
     text-align: center;
+}
+
+@media (max-width: 1024px) {
+    .center {
+        padding-left: calc(50% - 384px);
+        padding-right: calc(50% - 384px);
+    }
+
+    .main_page {
+        max-width: 768px;
+    }
+
+    .top_main_page {
+        padding-left: 32px;
+        padding-bottom: 15px;
+        display: flex;
+        column-gap: 424px;
+    }
+
+    .top_block {
+        column-gap: 16px;
+    }
+
+    .top_page_man {
+        max-width: 386px;
+    }
+
+    .rectangle_img {
+        padding-left: 23px;
+    }
+    
+    .top_block_text {
+        font-size: 44px;
+        line-height: 35px;
+    }
+
+    .top_center_text {
+        font-size: 24px;
+    }
+    
+    .top_end_text {
+        font-size: 24px;
+    }
+
+    .center_block {
+        margin-top: 65px;
+        grid-template-columns: 232px 232px 232px;
+        gap: 19px;
+    }
+
+    .center_top {
+        min-height: 167px;
+     }
+
+    .center_top_color {
+        width: 232px;
+        min-height: 167px;
+        position: absolute;
+        background-color: rgba(33, 22, 22, 0.70);
+        z-index: 1;
+     }
+    .center_top_left {
+        padding-top: 59px;
+        padding-left: 40px;
+     }
+
+     .center_top_center {
+        padding-top: 57px;
+        padding-left: 61px;
+     }
+
+     .center_bottom {
+        min-height: 116px;
+        grid-column: span 3;
+        position: relative;
+    }
+    
+    .center_bottom_color {
+        width: 735px;
+        min-height: 116px;
+        background-color: rgba(33, 22, 22, 0.70);
+        position: absolute;
+        z-index: 1;
+    }
+    
+    .center_bottom_position {
+        padding-top: 33px;
+        padding-left: 287px;
+    }
 }
